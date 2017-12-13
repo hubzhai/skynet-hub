@@ -1,0 +1,7 @@
+root = "./"
+luaservice = root.."skynet/service/?.lua;./framing/service/db/?.lua;./framing/service/game/?.lua;"
+lualoader = root .. "skynet/lualib/loader.lua"
+--preload = "./framing/preload.lua"	
+lua_path = root.."skynet/lualib/?.lua;"..root.."skynet/lualib/?/init.lua"
+lua_cpath = root .. "skynet/luaclib/?.so"
+snax = root.."framing/?.lua;"
